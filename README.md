@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+Builds on Next.JS's starter blog using TypeScript by adding support for LaTeX-style processing in markdown files.
