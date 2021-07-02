@@ -21,7 +21,7 @@ This should get you up and running. Open in your browser at `localhost:3000`.
 
 To view KaTeX in action, click on the blog post titled `KaTeX and Markdown`. If everything works properly, you should see the following rendered:
 
-![KaTeX example](katex-example.png)
+<img src="katex-example.png" width="500" alt="KaTeX example">
 
 ## Troubleshooting
 
