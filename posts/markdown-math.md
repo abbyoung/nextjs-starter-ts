@@ -1,5 +1,5 @@
 ---
-title: 'LaTeX and Markdown'
+title: 'KaTeX and Markdown'
 date: '2021-07-01'
 ---
 
