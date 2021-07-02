@@ -2,13 +2,13 @@
 
 ## About
 
-Builds on Next.JS's starter blog using TypeScript by adding support for [KaTeX](https://github.com/KaTeX/KaTeX) processing in markdown files.
+This starter builds on [Next.js](https://nextjs.org/learn/basics/create-nextjs-app?utm_source=next-site&utm_medium=nav-cta&utm_campaign=next-website)'s TypeScript starter blog with added [KaTeX](https://github.com/KaTeX/KaTeX) support in markdown files.
 
-This implementation uses the UnifiedJS ecosystem to parse and process markdown files located in `posts/`. An example post is included - `posts/markdown-math.md`.
+It uses the UnifiedJS ecosystem to parse and process markdown files located in `posts/`. An example post is included: `posts/markdown-math.md`.
 
 Use `$` (inline) or `$$` (blocks) to wrap KaTeX syntax in your files. This marks them for processing by `remark-math`.
 
-All text processing takes place in `lib/posts.ts`, utilizing a handful of remark plugins. [Remark-math](https://github.com/remarkjs/remark-math) parses `$` and `$$` into math nodes. [Remark-html-katex](https://github.com/remarkjs/remark-math/tree/main/packages/remark-html-katex) transforms those nodes with KaTeX. The necessary css for rendering KaTeX is imported in `_app.tsx`.
+All text processing takes place in `lib/posts.ts`, utilizing a handful of [Remark](https://remark.js.org) plugins. [Remark-math](https://github.com/remarkjs/remark-math) parses `$` and `$$` into math nodes. [Remark-html-katex](https://github.com/remarkjs/remark-math/tree/main/packages/remark-html-katex) transforms those nodes with KaTeX. The necessary css for rendering KaTeX is imported in `_app.tsx`.
 
 ## Getting Started
 
