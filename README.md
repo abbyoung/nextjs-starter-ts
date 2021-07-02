@@ -4,7 +4,7 @@
 
 This starter builds on [Next.js](https://nextjs.org/learn/basics/create-nextjs-app?utm_source=next-site&utm_medium=nav-cta&utm_campaign=next-website)'s TypeScript starter blog with added [KaTeX](https://github.com/KaTeX/KaTeX) support in markdown files.
 
-It uses the UnifiedJS ecosystem to parse and process markdown files located in `posts/`. An example post is included: `posts/markdown-math.md`.
+It uses the [UnifiedJS](https://unifiedjs.com) ecosystem to parse and process markdown files located in `posts/`. An example post is included: `posts/markdown-math.md`.
 
 Use `$` (inline) or `$$` (blocks) to wrap KaTeX syntax in your files. This marks them for processing by `remark-math`.
 
